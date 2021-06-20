@@ -8,7 +8,81 @@
     <!-- Styles --><link href="styles/common.css" rel="stylesheet" />
     <!-- Fonts --><link href="styles/fonts.css" rel="stylesheet" />
 </head>
-<body>
-
+<body class="preload">
+    <section id="Navigation">
+        <div class="container">
+            <header>
+                <span class="logo">
+                    <img src="assets/images/Logo.png" />
+                </span>
+                <span class="nav">
+                    <a>Home</a>
+                    <a>Project</a>
+                    <a>Services</a>
+                    <a>About</a>
+                    <a>Blog</a>
+                    <a>Shop</a>
+                    <a>Contact</a>
+                </span>
+                <button>Sign Up</button>
+            </header>
+        </div>
+    </section>
+    <section id="Project">
+        <div class="container">
+            <div class="grid-2-cols">
+                <div class="mt-125">
+                    <h4 class="fw-600 ff-accent tt-uppercase">Modern interior</h4>
+                    <h1 class="fw-600 mb-25">Create Your Interior Design.</h1>
+                    <p class="mb-25">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                    <button class="btn-accent">Contact</button>
+                </div>
+                <div class="container-img">
+                    <div class="container-img-border"></div>
+                    <img src="assets/images/Interior Design.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Services">
+        <div class="container">
+            <h4 class="fw-600 ff-accent tt-uppercase">What we do</h4>
+            <h2 class="fw-500 mb-50">Our Service</h2>
+            <p class="arr arr-left">
+                <img src="assets/icons/arr-right.svg" />
+            </p>
+            <p class="arr arr-right">
+                <img src="assets/icons/arr-left.svg" />
+            </p>
+            <div class="grid-3-cols">
+                <div class="container-icon-content shadow">
+                    <img src="assets/icons/Interior Design.png" />
+                    <div>
+                        <h3 class="fw-700 ff-main">Interior Design</h3>
+                        <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div>
+                <div class="selected container-icon-content shadow">
+                    <img src="assets/icons/Architecture.png" />
+                    <div>
+                        <h3 class="fw-700 ff-main">Architecture</h3>
+                        <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div>
+                <div class="container-icon-content shadow">
+                    <img src="assets/icons/Planning.png" />
+                    <div>
+                        <h3 class="fw-700 ff-main">Planning</h3>
+                        <p>Lorem ipsum dolor amet consectetur adipiscing elit sed eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>document.body.classList.remove('preload')</script>
 </body>
 </html>
