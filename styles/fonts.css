@@ -1,0 +1,65 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('/assets/fonts/OpenSans.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('/assets/fonts/Poppins.ttf');
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 78px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 78px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 78px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.ff-main, html, body, h4, h5, h6 {
+    font-family: OpenSans, sans-serif;
+    font-weight: normal;
+}
+
+.ff-accent, h1, h2, h3 {
+    font-family: Poppins;
+    font-weight: normal;
+}
+
+.tt-uppercase {
+    text-transform: uppercase;
+}
