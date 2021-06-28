@@ -58,11 +58,6 @@ p, h4, h5, h6 {
     background-color: #1F473B;
 }
 
-header {
-    font-size: 16px;
-    font-weight: 600;
-}
-
 .container {
     margin-right: 10%;
     margin-left: 10%;
@@ -131,7 +126,9 @@ header {
     border-radius: 140px 0;
 }
 
-header {
+.navbar {
+    font-size: 16px;
+    font-weight: 600;
     width: 100%;
     display: grid;
     grid-template-columns: min-content auto min-content;
@@ -142,7 +139,7 @@ header {
     margin-right: 64px;
 }
 
-header .nav {
+.navbar .nav {
     margin-left: auto;
     margin-right: 0;
     min-width: 600px;
@@ -152,15 +149,15 @@ header .nav {
     justify-content: space-between;
 }
 
-header .nav a {
+.navbar .nav a {
     font-weight: 600;
     line-height: 22px;
     text-transform: uppercase;
-    text-align:center;
+    text-align: center;
     color: #646464;
 }
 
-header button {
+.navbar button {
     color: white;
     background: #CAA892;
     border-radius: 15px 0px;
@@ -171,11 +168,11 @@ header button {
     transition: 0.2s;
 }
 
-header button:hover {
+.navbar button:hover {
     background: #9D8372;
 }
 
-header button:active {
+.navbar button:active {
     background: #705D51;
 }
 
