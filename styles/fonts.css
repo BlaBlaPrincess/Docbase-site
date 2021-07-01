@@ -1,11 +1,11 @@
 @font-face {
     font-family: OpenSans;
-    src: url('../assets/fonts/OpenSans.ttf');
+    src: url('assets/fonts/OpenSans.ttf');
 }
 
 @font-face {
     font-family: Poppins;
-    src: url('../assets/fonts/Poppins.ttf');
+    src: url('assets/fonts/Poppins.ttf');
 }
 
 p, h1, h2, h3, h4, h5, h6 {
